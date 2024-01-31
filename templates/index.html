@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+<!--Loading the style sheets applicable to this page-->
+{% block styles %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/home.css')}}">
+{% endblock %}
+
+{% block body %}
+<section class="hero homebg">
+    <h1>Our Aim is to Improve Manager Performance By:</h1>
+    <div class="herohldr">
+        <div id="ico1" class="homeicon">
+            <img src="{{url_for('static',filename='images/objectives.png')}}" alt="">
+            <p>Objectives</p>
+        </div>
+
+        <div id="ico2" class="homeicon">
+            <img src="{{url_for('static',filename='images/planning.png')}}" alt="">
+            <p>Planning</p>
+        </div>
+
+        <div id="ico3" class="homeicon">
+            <img src="{{url_for('static',filename='images/targets.png')}}" alt="">
+            <p>Targets</p>
+        </div>
+
+        <div id="ico4" class="homeicon">
+            <img src="{{url_for('static',filename='images/appraisal.png')}}" alt="">
+            <p>Appraisal</p>
+        </div>
+
+        <div id="ico5" class="homeicon">
+            <img src="{{url_for('static',filename='images/results.png')}}" alt="">
+            <p>Results</p>
+        </div>
+
+        <div id="ico6" class="homeicon">
+            <img src="{{url_for('static',filename='images/reviews.png')}}" alt="">
+            <p>Reviews</p>
+        </div>
+
+        <div id="ico7" class="homeicon">
+            <img src="{{url_for('static',filename='images/competance.png')}}" alt="">
+            <p>Competence</p>
+        </div>
+
+        <div id="ico8" class="homeicon">
+            <img src="{{url_for('static',filename='images/developments.png')}}" alt="">
+            <p>Development</p>
+        </div>
+    </div>
+</section>
+<div class="split">
+    <h1>Our Services</h1>
+    <p>This is what we do and what we can help you with</p>
+    <div class="services">
+        <div class="service s1" onclick="location.href='services.html#virtualmanagerperformancemanagementtraining'">
+            <h2>Virtual Manager Performance Management Training</h2>
+        </div>
+
+        <div class="service s2" onclick="location.href='services.html#oneononesupportadvice'">
+            <h2>One-on-one support and advice on specific objectives</h2>
+        </div>
+
+        <div class="service s3" onclick="location.href='services.html#organisationaldevelopmentsupportadvice'">
+            <h2>Organisational  Development Support and Advice</h2>
+        </div>
+
+        <div class="service s4" onclick="location.href='services.html#managerperformancebooks'">
+            <h2>Manager Performance Management Books and learning</h2>
+        </div>
+    </div>
+    <a class="homebtn" href="services.html">More</a>
+</div>
+<div class="imagesplit">
+
+</div>
+<div class="split">
+    <h1>Manager Performance</h1>
+    <p>'Supporting senior executives in holding managers to account for achieving agreed targets and objectives'</p>
+    <a class="homebtn" href="about.html">About</a>
+</div>
+
+<div class="imagesplit">
+    <h1>CEOs, MDs, and Business Owners - Continuous Manager Improvement (CMI)</h1>
+    <ul>
+        <li>Do you want to boost your organisation’s performance by improving your managers?</li>
+        <li>Do you want your managers to be accountable for results and the actions of their teams?</li>
+        <li>Do you want to have more control over how your managers perform and behave?</li>
+        <li><b>Here are 4 steps for you to follow:</b></li>
+    </ul>
+    <a class="homebtn hb2" href="#">Learn More</a>
+</div>
+{% endblock %}

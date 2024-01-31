@@ -1,0 +1,175 @@
+.hero{
+    padding-top: 150px;
+    height: auto;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text h1{
+    font-size: 40px;
+    line-height: 1;
+    margin: 0 0 45px;
+}
+
+.hero-text p{
+    line-height: 1.9;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.homebg{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/im4.png");
+    text-align: center;
+    width: 100%;
+}
+
+.herohldr{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.homebg h1{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.homeicon{
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: moveup 1s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+#ico2{
+    animation-delay: 1s;
+}
+
+#ico3{
+    animation-delay: 2s;
+}
+
+#ico4{
+    animation-delay: 3s;
+}
+
+#ico5{
+    animation-delay: 4s;
+}
+
+#ico6{
+    animation-delay: 5s;
+}
+
+#ico7{
+    animation-delay: 6s;
+}
+
+#ico8{
+    animation-delay: 7s;
+}
+
+.homeicon img{
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.homeicon p{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.homebtn{
+    display: inline-block;
+    color: white;
+    border: 2px solid rgb(66, 158, 255);
+    background: rgb(66, 158, 255);
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all .55s ease;
+}
+
+.homebtn:hover{
+    background: transparent;
+    border: 2px solid rgb(66, 158, 255);
+    color: black;
+    transform: translateX(8px);
+}
+
+.hb2:hover{
+    color: white;
+}
+
+
+@media(min-width:375px){
+
+    .homeicon p{
+        font-size: 13px;
+    }
+}
+
+@media(min-width:768px){
+
+    .homeicon p{
+        font-size: 15px;
+    }
+
+    .homeicon{
+        width: 25%;
+    }
+
+}
+
+@media(min-width:1024px){
+
+    .homeicon p{
+        font-size: 18px;
+    }
+
+    .homeicon{
+        width: 25%;
+    }
+
+    .homeicon img{
+        width: 60%;
+    }
+
+}

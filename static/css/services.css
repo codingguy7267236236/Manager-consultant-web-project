@@ -1,0 +1,28 @@
+.split{
+    padding:50px 15px;
+    min-height: 300px;
+    color: black;
+}
+
+.h2black{
+    color: black;
+}
+
+.imagesplit{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 300px;
+}
+
+.imagesplit h1{
+    margin: auto;
+}
+
+.services{
+    margin-top: 100px;
+}
+
+input{
+    color: black;
+}

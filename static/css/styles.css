@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","sans-serif";
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    position:fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    transition: 0.5s ease;
+}
+
+.navlist{
+    display: block;
+    width: 0;
+    height: 100%;
+    z-index: 1;
+    top:0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    overflow-x: hidden;
+    transition: 0.5s;
+    position: fixed;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.navlist li{
+    margin-top: 40px;
+}
+
+.navlist a{
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    text-transform: uppercase;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+.navlist img{
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo{
+    width: 85%;
+}
+
+.menuicon{
+    width: 10%;
+    cursor: pointer;
+}
+
+.banner{
+    padding-top: 150px;
+    width:100%;
+    height:auto;
+    min-height:40vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/bloke.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1{
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 45px;
+}
+
+
+section{
+    padding: 0 19%;
+}
+
+.info{
+    min-height: 40vh;
+    color: black;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.info p{
+    color: white;
+}
+
+.textbg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbg p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 200px;
+    min-width: 250px;
+    padding: 15px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/training.png");
+}
+
+.textbg .im1{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/training.png");
+}
+
+.textbg .im2{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/im1.png");
+}
+
+.textbg .im3{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/im2.png");
+}
+
+.textbg .im4{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/im4.png");
+}
+
+.textbg .im5{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/oneonone.png");
+}
+
+.imagesplit{
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/im4.png");
+    min-height: 200px;
+}
+
+.imagesplit h1{
+    color: white;
+    padding: 20px;
+}
+
+.imagesplit p{
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.split{
+    width: 100%;
+    text-align: center;
+    background: white;
+    min-height: 200px;
+}
+
+.split h1{
+    color: black;
+    padding: 20px;
+}
+
+.split p{
+    color: black;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+.imagesplit ul li{
+    margin-top: 30px;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+
+.imagesplit ul li b{
+    margin-top: 30px;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    color: rgb(66, 195, 255);
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.service{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.6)),url("../images/im3.png");
+    min-height: 200px;
+    margin-top:30px;
+    padding: 10px;
+    transition-duration: 0.5s;
+    border-radius: 20px;
+}
+
+.service:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition-duration: 0.5s;
+}
+
+.service h2{
+    margin: auto;
+}
+
+.s1{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/vm.png");
+}
+
+.s2{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/oneonone.png");
+}
+
+.s3{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/organise.png");
+}
+
+.s4{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/im3.png");
+}
+
+.disable{
+    display: none;
+}
+
+@media(min-width:768px ){
+    .logo{
+        width: 35%;
+    }
+
+    .menuicon{
+        width: 5%;
+    }
+
+    .navlist a{
+        font-size: 14px;
+    }
+
+    .banner{
+        background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.75)),url("../images/training.png");
+    }
+
+    .service{
+        width: 40%;
+    }
+}
+
+@media(min-width:1024px ){
+    .logo{
+        width: 300px;
+    }
+
+    .menuicon{
+        display: none;
+    }
+
+    .navlist{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+        width: 60%;
+        align-items: end;
+        position: relative;
+        height: auto;
+        overflow-y: hidden;
+        background-color: transparent;
+        row-gap: 10px;
+    }
+
+    .navlist img{
+        display: none;
+    }
+
+    .navlist a{
+        font-size: 14px;
+    }
+
+    .info{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    .service{
+        width: 20%;
+    }
+}
+
+@media(min-width:1440px ){
+    .navlist{
+        font-size: 14px;
+        width: 70%;
+    }
+
+    .navlist a{
+        font-size: 14px;
+    }
+
+    .info{
+        width: 50%;
+    }
+}

@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+<!--Loading the style sheets applicable to this page-->
+{% block styles %}
+<link rel="stylesheet" href="static/css/services.css">
+{% endblock %}
+
+{% block body %}
+<section class="banner">
+    <h1>Our Services</h1>
+</section>
+
+<div class="split">
+    <p>[Insert generic overview info about how the services can help achieve manager goal]</p>
+    <div class="services">
+        <div class="service s1" onclick="location.href='#virtualmanagerperformancemanagementtraining'">
+            <h2>Virtual Manager Performance Management Training</h2>
+        </div>
+
+        <div class="service s2" onclick="location.href='#oneononesupportadvice'">
+            <h2>One-on-one support and advice on specific objectives</h2>
+        </div>
+
+        <div class="service s3" onclick="location.href='#organisationaldevelopmentsupportadvice'">
+            <h2>Organisational  Development Support and Advice</h2>
+        </div>
+
+        <div class="service s4" onclick="location.href='#managerperformancebooks'">
+            <h2>Manager Performance Management Books and learning</h2>
+        </div>
+    </div>
+</div>
+
+<div id="virtualmanagerperformancemanagementtraining" style="min-height: 100px;">
+
+</div>
+<!--virtual manager performance section-->
+<div class="imagesplit s1">
+    <h1>Virtual Manager Performance Management Training</h1>
+</div>
+<div id="oneononesupportadvice" class="split">
+    <p>[Info and/or images to help describe and showcase this service]</p>
+</div>
+
+<!--one on one support and advice section-->
+<div class="imagesplit s2">
+    <h1>One-on-one support and advice on specific objectives</h1>
+</div>
+<div id="organisationaldevelopmentsupportadvice" class="split">
+    <p>[Info and/or images to help describe and showcase this service]</p>
+</div>
+
+<!--organisational development support advice section-->
+<div class="imagesplit s3">
+    <h1>Organisational Development Support and Advice</h1>
+</div>
+<div id="managerperformancebooks" class="split">
+    <p>[Info and/or images to help describe and showcase this service]</p>
+</div>
+
+<!--Manager book section-->
+<div  class="imagesplit s4">
+    <h1>Manager Performance Management Books and learning</h1>
+</div>
+<div class="split">
+    <p>[Info and/or images to help describe and showcase this service]</p>
+</div>
+{% endblock %}
