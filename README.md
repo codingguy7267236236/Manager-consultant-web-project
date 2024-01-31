@@ -3,7 +3,7 @@
  ### Project working with an Organisational Development Manager to improve webpage design
 
 <h2>Description</h2>
-Improving [Manager Performance site] (https://www.manager-performance.co.uk/) to make it more professional and aesthetically pleasing utilising Python Flask framwork intergrated with HTML, CSS and JavaScript. The site showcases the Organisational Development Managers Manager Performance resources such as books and course for example.
+Improving [Manager Performance site](https://www.manager-performance.co.uk/) to make it more professional and aesthetically pleasing utilising Python Flask framwork intergrated with HTML, CSS and JavaScript. The site showcases the Organisational Development Managers Manager Performance resources such as books and course for example.
 <br />
 
 
